@@ -1,0 +1,146 @@
+ /* top bar section start */
+ .topbar {
+      background: #3188ce;
+      font-size: 14px;
+      padding: 8px 0;
+    }
+    .topbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    .topbar a i {
+      margin-right: 5px;
+    }
+    .social-icons a {
+      margin-right: 15px;
+      color: #cbd5e1;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    .social-icons a:hover {
+      color: #013768;
+    }
+    /* top bar section end */
+/* header section start */
+.navbar-custom {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.logo_main img{
+    width: 150px;
+    background-color: #fff;
+}
+.navbar-nav .nav-item{
+    margin: 0 8px;
+}
+.navbar-nav .nav-link {
+    color: #013768;
+    margin-right: 1rem;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 27px;
+    align-items: center;
+    opacity: 1;
+}
+.navbar-nav .nav-link::before {
+  content: "\f090"; /* 👈 Example: user icon */
+  font-family: "Font Awesome 6 Free"; 
+  font-weight: 900;  /* solid icons ke liye */
+  color: inherit;
+    transition: .3s;
+    opacity: 0;
+    transform: translateX(-10px);
+    position: absolute;
+    left: -12px;
+}
+.navbar-nav .nav-link.active::before,
+.navbar-nav .nav-link:hover::before {
+        opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
+}
+
+.form-control {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    color: #cbd5e1;
+}
+
+.form-control::placeholder {
+    color: #94a3b8;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: #cbd5e1;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* header section end */
+
+.btn_main {
+    padding: 12px 28px;
+    background: #3188ce;
+    border-radius: 18px 0 18px 0;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+.btn_main .btn-wrap {
+    border: none !important;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    /* z-index: 1; */
+}
+.btn_main .btn-wrap .btn-text1 {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    display: block;
+    color: #fff;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+.btn_main .btn-wrap .btn-text2 {
+    display: flex !important;
+    align-items: center;
+    position: absolute;
+    display: block;
+    color: #fff;
+    transition: 0.3s;
+    text-transform: capitalize;
+    top: 100%;
+}
+.btn_main:hover .btn-wrap .btn-text1 {
+    transform: translateY(-150%);
+}
+.btn_main:hover .btn-wrap .btn-text2 {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* about section */
+.about_main_section{
+    background-image: url('./about_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    width: 100%;
+}

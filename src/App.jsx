@@ -1,9 +1,17 @@
+import About from './About/about'
 import './App.css'
+import Navbar from './component/header'
+import HeroSlider from './component/heroslider'
+
 
 function App() {
   return (
     <>
-      <h1>home page</h1>
+      <Navbar />
+      <HeroSlider />
+      <About/>
+      <h1 className='fs-3 border'>home page</h1>
+      
     </>
   )
 }
