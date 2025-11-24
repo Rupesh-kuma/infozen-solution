@@ -6,9 +6,9 @@ const Navbar=()=>{
       <div className="row align-items-center">
          {/* Left Side */}
         <div className="col-md-6 d-flex flex-wrap">
-          <a href="tel:+507-452-1254"><i className="fa fa-phone"></i>507-452-1254</a>
+          <a href="tel:+919661911152"><i className="fa fa-phone"></i>+91-9661911152</a>
           <a href="#"><i className="fa fa-location-dot"></i>27 Division St, New York, NY 10002</a>
-          <a href="mailto:integrio@mail.com"><i className="fa fa-envelope"></i>integrio@mail.com</a>
+          <a href="mailto:rupesh.kumar.light@gmail.com"><i className="fa fa-envelope"></i>rupesh.kumar.light@gmail.com</a>
         </div>
 
          {/* Right Side  */}
