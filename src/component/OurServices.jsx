@@ -8,55 +8,52 @@ const OurServices = () => {
             Smart Solutions for a Digital World
           </h3>
         </div>
-        <div className="row row-cols-1 row-cols-md-4 g-4">
+        <div className="row row-cols-1 row-cols-md-4 g-4 my-3">
           <div className="col">
-            <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+            <div className="service_box">
+              <i class="fa-solid fa-people-roof"></i>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Managed IT Services</h5>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  It is a long established fact that reader will be distracte readable content of a when looking.
                 </p>
+                <a href="#" className="read_btn">Read more <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div className="col">
-            <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+            <div className="service_box">
+              <i class="fa-solid fa-people-roof"></i>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Cloud Services</h5>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  It is a long established fact that reader will be distracte readable content of a when looking.
                 </p>
+                <a href="#" className="read_btn">Read more <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div className="col">
-            <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+            <div className="service_box">
+              <i class="fa-solid fa-people-roof"></i>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Machine Learning</h5>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
+                  It is a long established fact that reader will be distracte readable content of a when looking.
                 </p>
+                <a href="#" className="read_btn">Read more <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
           <div className="col">
-            <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+            <div className="service_box">
+              <i class="fa-solid fa-people-roof"></i>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Data Security</h5>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  It is a long established fact that reader will be distracte readable content of a when looking.
                 </p>
+                <a href="#" className="read_btn">Read more <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
