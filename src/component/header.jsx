@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar=()=>{
     return(
         <>
@@ -6,21 +8,21 @@ const Navbar=()=>{
       <div className="row align-items-center">
          {/* Left Side */}
         <div className="col-md-6 d-flex flex-wrap">
-          <a href="tel:+919661911152"><i className="fa fa-phone"></i>+91-9661911152</a>
-          <a href="#"><i className="fa fa-location-dot"></i>27 Division St, New York, NY 10002</a>
-          <a href="mailto:rupesh.kumar.light@gmail.com"><i className="fa fa-envelope"></i>rupesh.kumar.light@gmail.com</a>
+          <Link to="tel:+919661911152"><i className="fa fa-phone"></i>+91-9661911152</Link>
+          <Link to="#"><i className="fa fa-location-dot"></i>27 Division St, New York, NY 10002</Link>
+          <Link to="mailto:rupesh.kumar.light@gmail.com"><i className="fa fa-envelope"></i>rupesh.kumar.light@gmail.com</Link>
         </div>
 
          {/* Right Side  */}
         <div className="col-md-6 text-md-end mt-2 mt-md-0">
-          <a href="#">Careers</a>
-          <a href="#">News & Media</a>
-          <a href="#">FAQ</a>
+          <Link to="/careers">Careers</Link>
+          <Link to="/news-media">News & Media</Link>
+          <Link to="/faq">FAQ</Link>
           <span className="social-icons ms-3">
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-linkedin"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <Link to="#"><i className="fab fa-twitter"></i></Link>
+            <Link to="#"><i className="fab fa-facebook"></i></Link>
+            <Link to="#"><i className="fab fa-linkedin"></i></Link>
+            <Link to="#"><i className="fab fa-instagram"></i></Link>
           </span>
         </div>
       </div>
@@ -40,29 +42,29 @@ const Navbar=()=>{
     <div className="collapse navbar-collapse">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" href="#">
+          <Link className="nav-link active" to="/">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/about">
             About Us
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/projects">
             Projects
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/service">
             Service
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/contact">
             Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
       {/* Search */}

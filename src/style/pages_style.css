@@ -289,3 +289,36 @@ p{
         } */
     }
 }
+/* mission and vision  section start*/
+.who-we-area-box{
+    background-color: #001d4c;
+}
+.who-we-area-box .item {
+padding: 120px 50px;
+border-right: 1px solid rgba(255, 255, 255, 0.1);
+position: relative;
+color: #fff;
+}
+
+.who-we-area-box .item:last-child {
+border: none;
+}
+
+.who-we-area-box .item .text-blur {
+position: absolute;
+top: 75px;
+font-size: 60px;
+color: rgba(255, 255, 255, 0.1);
+font-weight: 900;
+}
+
+.who-we-area-box .item h4 {
+font-weight: 600;
+margin-bottom: 25px;
+color: #fff;
+}
+
+.who-we-area-box .item a {
+margin-top: 15px;
+}
+/* mission and vision  section end*/

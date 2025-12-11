@@ -4,6 +4,8 @@ import './App.css'
 import Navbar from './component/header'
 import HeroSlider from './component/heroslider'
 import Home from './pages/Home'
+import Footer from './component/Footer'
+import Contact from './pages/Contact-us'
 
 
 function App() {
@@ -12,8 +14,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
-      
+      <Footer/>
     </>
   )
 }
