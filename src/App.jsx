@@ -6,6 +6,7 @@ import HeroSlider from './component/heroslider'
 import Home from './pages/Home'
 import Footer from './component/Footer'
 import Contact from './pages/Contact-us'
+import AboutUs from './pages/About-us'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/aboutus' element={<AboutUs/>}/>
       </Routes>
       <Footer/>
     </>
