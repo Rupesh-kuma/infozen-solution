@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Footer from './component/Footer'
 import Contact from './pages/Contact-us'
 import AboutUs from './pages/About-us'
+import Service from './pages/Service'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/aboutus' element={<AboutUs/>}/>
+        <Route path='/service' element={<Service/>}/>
       </Routes>
       <Footer/>
     </>
